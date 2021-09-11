@@ -1,0 +1,339 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .single_employee{
+        height: 350px;
+        width: 350px;
+    }
+    .employee_image{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 1199px){
+    .single_employee{
+        height: 300px;
+        width: 300px;
+    }
+    .employee_image{
+        height: 300px;
+        width: 300px;
+    }
+    
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (max-width: 991px) {
+    
+    .login_btn{
+        margin-top: 10px;
+    }
+
+    .nav-item a {
+        color: var(--theme-color-2);
+    }
+
+    .nav-item a:hover{
+        color: var(--theme-color-1);
+    }
+
+    .login_btn {
+        color: var(--selected-theme-color);
+        border-color: var(--selected-theme-color);
+    }
+
+    .container-fluid .navbar-brand{
+        text-align: center;
+    }
+
+    .navbar-toggler.align-self-start {
+        padding: 0px;
+        margin: 10px 5px 0 -10px;
+    }
+
+    .nav_close_btn {
+        display: block;
+    }
+    .dropdown-menu {
+        border: none;
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+}
+
+    .mobileMenu {
+        transform: translateX(-100%);
+        position: fixed;
+        top: 0px;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        -webkit-transition: all ease 0.25s;
+        transition: all ease 0.25s;
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        -moz-transition: all ease 0.25s;
+        -ms-transition: all ease 0.25s;
+        -o-transition: all ease 0.25s;
+        height: 100vh;
+        -webkit-transform: translateX(-100%);
+}
+
+    .mobileMenu.open {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+}
+
+.mobileMenu.open a{
+    margin-right: 100px ;
+}
+
+    .mobileMenu .navbar-nav {
+        overflow-y: auto;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+    }
+
+    .overlay.open {
+        display: block;
+        z-index: 9999;
+    }
+
+
+    /* BANNER AREA START */
+    .banner_text h1 {
+        padding: 0 35px;
+    }
+
+    .banner_area {
+        height: auto;
+    }
+    .banner_text {
+        margin-top: 180px;
+    }
+
+    .banner_button {
+        margin-bottom: 180px;
+    }
+
+    .catagory_header h2 {
+        font-size: 20px;
+    }
+    /* BANNER AREA END */
+
+    /*============================== ABOUT US PAGE ==============================*/
+    /* EMPLOYEE AREA START */
+    .single_employee {
+        margin-bottom: 100px;
+        height: 350px;
+        width: 350px;
+    }
+    
+    .employee_image {
+        height: 350px;
+        width: 350px;
+    }
+    /* EMPLOYEE AREA END */
+}
+
+
+@media (max-width: 768px){
+    .single_theme_left{
+        width: 100%;
+        text-align: center;
+    }
+    .single_theme_right{
+        width: 100%;
+        text-align: left;
+    }
+    .single_theme_right p{
+        display: inline-block;
+        width: 48%;
+        text-align: center;
+    }
+
+    /* BANNER AREA START */
+    .banner_text h1 {
+        padding: 0 35px;
+    }
+
+    .catagory_header h2 {
+        font-size: 35px;
+    }   
+
+    .banner_area {
+        height: auto;
+    }
+    .banner_text {
+        margin-top: 180px;
+    }
+
+    .banner_button {
+        margin-bottom: 180px;
+    }
+    /* BANNER AREA END */
+
+
+    /*============================== CONTACT US PAGE ================================*/
+    .contact_banner_text h1 {
+        padding: 0px 0;
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+
+    .contact_options {
+        bottom: -135px;
+    }
+
+    .contact_area{
+        margin-top: 200px;
+    }
+
+    /*================================= ABOUT US PAGE =================================*/
+
+    /* BANNER AREA START */
+    .about_banner_text p {
+        padding: 0 30px;
+    }
+
+    .about_banner_text h1 {
+        padding: 0 0;
+    }
+    /* BANNER AREA END */
+
+    /* EMPLOYEE AREA START */
+    .single_employee {
+        margin-bottom: 100px;
+        height: 350px;
+        width: 350px;
+    }
+    
+    .employee_image {
+        height: 350px;
+        width: 350px;
+    }
+    /* EMPLOYEE AREA END */
+    
+}
+
+
+@media (max-width: 575px){
+    /* CATAGORY AREA START */
+    .catagory_header h2 {
+        font-size: 35px;
+    }   
+    /* CATAGORY AREA END */
+
+    .contact_options{
+        display: none;
+    }
+    .contact_area {
+        margin-top: -140px;
+    }
+}
+
+
+@media (max-width: 490px){
+    /* Footer Area Start */
+    .footer_2{
+        display: none;
+    }
+    /* Footer Area End */
+
+    /* CONTACT AREA START */
+
+    
+    /* CONTACT AREA END */
+}
+
+@media (max-width: 365px){
+    /* BANNER AREA START */
+    .banner_text h1 {
+        padding: 0 0px;
+    }
+    /* BANNER AREA END */
+
+    /* RECENT POST AREA START */
+    .recent_header h2 {
+        font-size: 25px;
+    }
+    /* RECENT POST AREA END */
+
+    /*======================================== ABOUT US PAGE START ========================================*/
+
+    /* EMPLOYEE AREA START */
+    
+    .single_employee{
+        height: 290px;
+        width: 290px;
+    }
+    .employee_image{
+        height: 290px;
+        width: 290px;
+    }
+    /* EMPLOYEE AREA END */
+}
+
+@media (max-width: 320px){
+    /* BANNER AREA START */
+    .banner_text h1 {
+        font-size: 45px;
+    }
+    .catagory_header h2 {
+        font-size: 35px;
+    }
+
+    .banner_button a {
+        margin: 5px;
+    }
+    /* BANNER AREA END */
+
+
+    /*======================================== ABOUT US PAGE START ========================================*/
+
+    /* EMPLOYEE AREA START */
+    
+    .single_employee{
+        height: 290px;
+        width: 290px;
+    }
+    .employee_image{
+        height: 290px;
+        width: 290px;
+    }
+    /* EMPLOYEE AREA END */
+
+
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
